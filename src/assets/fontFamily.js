@@ -1,0 +1,25 @@
+const fonts = {
+  primary: 'Gilroy-Regular',
+  primaryItalic: 'Gilroy-RegularItalic',
+  primaryBlack: 'Gilroy-Black',
+  primaryHeavy: 'Gilroy-Heavy',
+  primaryHeavyItalic: 'Gilroy-HeavyItalic',
+  primaryBlackItalic: 'Gilroy-BlackItalic',
+  primaryThin: 'Gilroy-Thin',
+  primaryThinItalic: 'Gilroy-ThinItalic',
+  primaryLight: 'Gilroy-Light',
+  primaryLightItalic: 'Gilroy-LightItalic',
+  primaryUtraLight: 'Gilroy-UtraLight',
+  primaryUtraLightItalic: 'Gilroy-UtraLightItalic',
+  primaryMedium: 'Gilroy-Medium',
+  primaryMediumItalic: 'Gilroy-MediumItalic',
+  primaryBold: 'Gilroy-Bold',
+  primaryBoldItalic: 'Gilroy-BoldItalic',
+  primarySemiBold: 'Gilroy-SemiBold',
+  primarySemiBoldItalic: 'Gilroy-SemiBoldItalic',
+  primaryExtraBold: 'Gilroy-ExtraBold',
+  primaryExtraBoldItalic: 'Gilroy-ExtraBoldItalic',
+  secondary: 'PRPXON',
+};
+
+export default fonts;

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "313673384312",
+    "project_id": "rockwars-dev",
+    "storage_bucket": "rockwars-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313673384312:android:ae2cb1519ccfddcb44c88d",
+        "android_client_info": {
+          "package_name": "com.ekoios.rockwars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313673384312-gbpt2ahbkl6he6436lv0sf7oihcr1et4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ekoios.rockwars",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "313673384312-e1c2it4080oh1ginkrvh717qqs998ei1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcVURZT8MH3x9mMOuYjY0rQByCuwvgc4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313673384312-e1c2it4080oh1ginkrvh717qqs998ei1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "313673384312-iulismc5oi68i02ar2icvsjofck3b0qi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.RockWar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

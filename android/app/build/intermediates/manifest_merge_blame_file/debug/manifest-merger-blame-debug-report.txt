@@ -1,0 +1,491 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ekoios.rockwars"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/quduc/Documents/Free/itexp-app/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/quduc/Documents/Free/itexp-app/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:5:5-80
+13-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:6:5-81
+14-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:7:5-65
+15-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:9:5-66
+16-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:9:22-63
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:10:5-80
+17-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.75.1] /Users/quduc/.gradle/caches/transforms-2/files-2.1/521b9d0c87d597c7e1f5d27b022fc42d/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.75.1] /Users/quduc/.gradle/caches/transforms-2/files-2.1/521b9d0c87d597c7e1f5d27b022fc42d/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-community_netinfo] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+19-->[:react-native-community_netinfo] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required to access Google Play Licensing -->
+20-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+20-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+21    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:rn-fetch-blob] /Users/quduc/Documents/Free/itexp-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+21-->[:rn-fetch-blob] /Users/quduc/Documents/Free/itexp-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
+22-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+23-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:22-107
+24    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+25    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+26    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+27    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+28    <!-- for Samsung -->
+29    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+30    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+31    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+32    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+33    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+34    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+35    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+36    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+37    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+38    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+39    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+40    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+41    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+42    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+43    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+44    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/quduc/.gradle/caches/transforms-2/files-2.1/10111755be4e62c1ac0291f8f3d48980/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+45
+46    <application
+46-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:12:5-56:19
+47        android:name="com.ekoios.rockwars.MainApplication"
+47-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:13:7-38
+48        android:allowBackup="false"
+48-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:17:7-34
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.3.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c9f0174a1baacd45992c684068c35ad9/core-1.3.2/AndroidManifest.xml:24:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:15:7-41
+52        android:label="@string/app_name"
+52-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:14:7-39
+53        android:roundIcon="@mipmap/ic_launcher"
+53-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:16:7-46
+54        android:theme="@style/AppTheme"
+54-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:18:7-38
+55        android:usesCleartextTraffic="true" >
+55-->/Users/quduc/Documents/Free/itexp-app/android/app/src/debug/AndroidManifest.xml:8:9-44
+56        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+56-->/Users/quduc/Documents/Free/itexp-app/android/app/src/debug/AndroidManifest.xml:11:9-86
+56-->/Users/quduc/Documents/Free/itexp-app/android/app/src/debug/AndroidManifest.xml:11:19-83
+57        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+58        <meta-data
+58-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:21:7-22:42
+59            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+59-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:21:19-95
+60            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+60-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:22:19-40
+61        <meta-data
+61-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:24:7-25:52
+62            android:name="com.dieam.reactnativepushnotification.notification_color"
+62-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:24:19-90
+63            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+63-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:25:19-50
+64        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+64-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:27:7-106
+64-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:27:17-103
+65        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+65-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:28:7-108
+65-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:28:17-105
+66        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+66-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:29:7-35:18
+66-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:29:17-113
+67            <intent-filter>
+67-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:30:11-34:27
+68                <action android:name="android.intent.action.BOOT_COMPLETED" />
+68-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:31:15-77
+68-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:31:23-74
+69                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+69-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:32:15-80
+69-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:32:23-77
+70                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+70-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:33:15-79
+70-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:33:23-77
+71            </intent-filter>
+72        </receiver>
+73
+74        <service
+74-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:37:7-43:17
+75            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+75-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:38:11-105
+76            android:exported="false" >
+76-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:39:11-35
+77            <intent-filter>
+77-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:40:11-42:27
+78                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+78-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:41:15-76
+78-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:41:23-73
+79            </intent-filter>
+80        </service>
+81
+82        <activity
+82-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:45:7-55:18
+83            android:name="com.ekoios.rockwars.MainActivity"
+83-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:46:9-37
+84            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+84-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:48:9-86
+85            android:label="@string/app_name"
+85-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:47:9-41
+86            android:launchMode="singleTask"
+86-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:49:9-40
+87            android:windowSoftInputMode="adjustResize" >
+87-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:50:9-51
+88            <intent-filter>
+88-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:51:9-54:25
+89                <action android:name="android.intent.action.MAIN" />
+89-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:52:13-65
+89-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:52:21-62
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:53:13-73
+91-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:53:23-70
+92            </intent-filter>
+93        </activity>
+94
+95        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+95-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+95-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+96        <service
+96-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+97            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+97-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+98            android:exported="false" >
+98-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+99            <intent-filter>
+99-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:40:11-42:27
+100                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+100-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:41:15-76
+100-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:41:23-73
+101            </intent-filter>
+102        </service>
+103
+104        <receiver
+104-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+105            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+105-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+106            android:exported="true"
+106-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+107            android:permission="com.google.android.c2dm.permission.SEND" >
+107-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+108            <intent-filter>
+108-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+109                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+109-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+109-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+110            </intent-filter>
+111        </receiver>
+112
+113        <meta-data
+113-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+114            android:name="firebase_messaging_auto_init_enabled"
+114-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+115            android:value="true" />
+115-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+116        <meta-data
+116-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+117            android:name="com.google.firebase.messaging.default_notification_channel_id"
+117-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+118            android:value="" />
+118-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+119        <meta-data
+119-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+120            android:name="com.google.firebase.messaging.default_notification_color"
+120-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+121            android:resource="@color/white" />
+121-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+122
+123        <provider
+123-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+124            android:name="com.imagepicker.ImagePickerProvider"
+124-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+125            android:authorities="com.ekoios.rockwars.imagepickerprovider"
+125-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+126            android:exported="false"
+126-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+127            android:grantUriPermissions="true" >
+127-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+128            <meta-data
+128-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+129                android:name="android.support.FILE_PROVIDER_PATHS"
+129-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+130                android:resource="@xml/imagepicker_provider_paths" />
+130-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+131        </provider>
+132        <provider
+132-->[:rn-fetch-blob] /Users/quduc/Documents/Free/itexp-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+133            android:name="com.RNFetchBlob.Utils.FileProvider"
+133-->[:rn-fetch-blob] /Users/quduc/Documents/Free/itexp-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+134            android:authorities="com.ekoios.rockwars.provider"
+134-->[:rn-fetch-blob] /Users/quduc/Documents/Free/itexp-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+135            android:exported="false"
+135-->[:rn-fetch-blob] /Users/quduc/Documents/Free/itexp-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+136            android:grantUriPermissions="true" >
+136-->[:rn-fetch-blob] /Users/quduc/Documents/Free/itexp-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+137            <meta-data
+137-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+139                android:resource="@xml/provider_paths" />
+139-->[:react-native-image-picker] /Users/quduc/Documents/Free/itexp-app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+140        </provider>
+141
+142        <receiver
+142-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
+143            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+143-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+144            android:exported="true"
+144-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
+145            android:permission="com.google.android.c2dm.permission.SEND" >
+145-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
+146            <intent-filter>
+146-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+147                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+147-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+147-->[:react-native-firebase_messaging] /Users/quduc/Documents/Free/itexp-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+148            </intent-filter>
+149        </receiver>
+150        <!--
+151             FirebaseMessagingService performs security checks at runtime,
+152             but set to not exported to explicitly avoid allowing another app to call it.
+153        -->
+154        <service
+154-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+155            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+155-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+158            <intent-filter android:priority="-500" >
+158-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:40:11-42:27
+159                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+159-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:41:15-76
+159-->/Users/quduc/Documents/Free/itexp-app/android/app/src/main/AndroidManifest.xml:41:23-73
+160            </intent-filter>
+161        </service>
+162        <service
+162-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+163            android:name="com.google.firebase.components.ComponentDiscoveryService"
+163-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+164            android:directBootAware="true"
+164-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+165            android:exported="false" >
+165-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+166            <meta-data
+166-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+167                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+167-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-messaging:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/71ff74b0ef3a414263d2ebc8b160bbc9/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/quduc/.gradle/caches/transforms-2/files-2.1/02705b9c35c07293a48ca834e2e6f4c5/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+170                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+170-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/quduc/.gradle/caches/transforms-2/files-2.1/02705b9c35c07293a48ca834e2e6f4c5/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/quduc/.gradle/caches/transforms-2/files-2.1/02705b9c35c07293a48ca834e2e6f4c5/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-iid:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/edbd708de3b7a52acba0cb5a81e51ecd/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+173                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+173-->[com.google.firebase:firebase-iid:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/edbd708de3b7a52acba0cb5a81e51ecd/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-iid:21.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/edbd708de3b7a52acba0cb5a81e51ecd/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+175            <meta-data
+175-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/3ff8c2e1aef2c425e301fffaca1a14a4/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
+176                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+176-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/3ff8c2e1aef2c425e301fffaca1a14a4/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:31:17-139
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/3ff8c2e1aef2c425e301fffaca1a14a4/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:32:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-installations:16.3.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/b8b147d0524b357b91d835256618389c/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+179                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+179-->[com.google.firebase:firebase-installations:16.3.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/b8b147d0524b357b91d835256618389c/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-installations:16.3.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/b8b147d0524b357b91d835256618389c/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+181            <!--
+182                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+183                clients to use it as well, by defining this registrar in their own core/common library.
+184            -->
+185            <meta-data
+185-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+186                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+186-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+188        </service>
+189        <service
+189-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/quduc/.gradle/caches/transforms-2/files-2.1/0518b5f58fcf7840b83bef12946ae5f5/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+190            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+190-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/quduc/.gradle/caches/transforms-2/files-2.1/0518b5f58fcf7840b83bef12946ae5f5/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+191            android:exported="false" >
+191-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/quduc/.gradle/caches/transforms-2/files-2.1/0518b5f58fcf7840b83bef12946ae5f5/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+192            <meta-data
+192-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/quduc/.gradle/caches/transforms-2/files-2.1/0518b5f58fcf7840b83bef12946ae5f5/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+193                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+193-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/quduc/.gradle/caches/transforms-2/files-2.1/0518b5f58fcf7840b83bef12946ae5f5/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+194                android:value="cct" />
+194-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/quduc/.gradle/caches/transforms-2/files-2.1/0518b5f58fcf7840b83bef12946ae5f5/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+195        </service>
+196        <service
+196-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/043bf692fabc1eed2bb38c818fb07e4a/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+197            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+197-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/043bf692fabc1eed2bb38c818fb07e4a/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+198            android:exported="false"
+198-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/043bf692fabc1eed2bb38c818fb07e4a/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+199            android:permission="android.permission.BIND_JOB_SERVICE" >
+199-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/043bf692fabc1eed2bb38c818fb07e4a/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+200        </service>
+201
+202        <receiver
+202-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/043bf692fabc1eed2bb38c818fb07e4a/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+203            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+203-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/043bf692fabc1eed2bb38c818fb07e4a/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+204            android:exported="false" />
+204-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/quduc/.gradle/caches/transforms-2/files-2.1/043bf692fabc1eed2bb38c818fb07e4a/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+205
+206        <meta-data
+206-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/a17c054a02ea282efa822ca18102f68a/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+207            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+207-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/a17c054a02ea282efa822ca18102f68a/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+208            android:value="GlideModule" />
+208-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/a17c054a02ea282efa822ca18102f68a/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+209
+210        <activity
+210-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+211            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+211-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+212            android:excludeFromRecents="true"
+212-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+213            android:exported="false"
+213-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+214-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+215        <!--
+216            Service handling Google Sign-In user revocation. For apps that do not integrate with
+217            Google Sign-In, this service will never be started.
+218        -->
+219        <service
+219-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+220            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+220-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+221            android:exported="true"
+221-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+222            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+222-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+223            android:visibleToInstantApps="true" />
+223-->[com.google.android.gms:play-services-auth:19.0.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/c2f7008f6e17cd8b5b63c85a3bb81975/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+224
+225        <activity
+225-->[com.google.android.gms:play-services-base:17.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/1ee7be2bfbe87fc8bd91ae8732f364c3/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+226            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+226-->[com.google.android.gms:play-services-base:17.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/1ee7be2bfbe87fc8bd91ae8732f364c3/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+227            android:exported="false"
+227-->[com.google.android.gms:play-services-base:17.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/1ee7be2bfbe87fc8bd91ae8732f364c3/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+228            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+228-->[com.google.android.gms:play-services-base:17.1.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/1ee7be2bfbe87fc8bd91ae8732f364c3/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+229
+230        <receiver
+230-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:29:9-33:20
+231            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+231-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:30:13-85
+232            android:enabled="true"
+232-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:31:13-35
+233            android:exported="false" >
+233-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:32:13-37
+234        </receiver>
+235
+236        <service
+236-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:35:9-38:40
+237            android:name="com.google.android.gms.measurement.AppMeasurementService"
+237-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:36:13-84
+238            android:enabled="true"
+238-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:37:13-35
+239            android:exported="false" />
+239-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:38:13-37
+240        <service
+240-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:39:9-43:72
+241            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+241-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:40:13-87
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:41:13-35
+243            android:exported="false"
+243-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:42:13-37
+244            android:permission="android.permission.BIND_JOB_SERVICE" />
+244-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/quduc/.gradle/caches/transforms-2/files-2.1/37b23b19f43df9fbc563a8e17848a3ed/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:43:13-69
+245
+246        <provider
+246-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+247            android:name="com.google.firebase.provider.FirebaseInitProvider"
+247-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+248            android:authorities="com.ekoios.rockwars.firebaseinitprovider"
+248-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+249            android:directBootAware="true"
+249-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+250            android:exported="false"
+250-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+251            android:initOrder="100" />
+251-->[com.google.firebase:firebase-common:19.5.0] /Users/quduc/.gradle/caches/transforms-2/files-2.1/688a41099d1075f658054fda4eee945a/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+252
+253        <meta-data
+253-->[com.google.android.gms:play-services-basement:17.1.1] /Users/quduc/.gradle/caches/transforms-2/files-2.1/8f3785672fb7e2356495c8bdada60545/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+254            android:name="com.google.android.gms.version"
+254-->[com.google.android.gms:play-services-basement:17.1.1] /Users/quduc/.gradle/caches/transforms-2/files-2.1/8f3785672fb7e2356495c8bdada60545/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+255            android:value="@integer/google_play_services_version" />
+255-->[com.google.android.gms:play-services-basement:17.1.1] /Users/quduc/.gradle/caches/transforms-2/files-2.1/8f3785672fb7e2356495c8bdada60545/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+256    </application>
+257
+258</manifest>
